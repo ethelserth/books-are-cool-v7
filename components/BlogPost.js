@@ -17,7 +17,7 @@ const BlogPost = ({ post }) => {
             fill
             alt={`${post.title}`}
             src={post?.page_cover}
-            className='w-full h-full object-cover object-center absolute inset-0 scale-110 transition duration-200'
+            className='w-full h-full object-cover object-center absolute inset-0 test scale-110 transition duration-200'
           />
           <div className='sm-cover absolute inset-0'></div>
           <div className='relative mt-auto'>
