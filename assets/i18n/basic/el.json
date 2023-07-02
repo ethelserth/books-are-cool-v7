@@ -1,0 +1,22 @@
+{
+    "NAV": {
+      "INDEX": "Blog",
+      "RSS": "RSS",
+      "SEARCH": "Αναζήτηση",
+      "ABOUT": "About"
+    },
+    "PAGINATION": {
+      "PREV": "Prev",
+      "NEXT": "Next"
+    },
+    "POST": {
+      "BACK": "Back",
+      "TOP": "Top"
+    },
+    "PAGE": {
+      "ERROR_404": {
+        "MESSAGE": "Ουπς. Αυτό που ψάχνεις δεν υπάρχει"
+      }
+    }
+  }
+  

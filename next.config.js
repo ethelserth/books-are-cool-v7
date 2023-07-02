@@ -5,6 +5,9 @@ module.exports = {
   eslint: {
     // dirs: ['components', 'layouts', 'lib', 'pages']
   },
+  images: {
+    domains: ['www.notion.so', 'images.unsplash.com', 's3.us-west-2.amazonaws.com']
+  },
   async headers() {
     return [
       {
