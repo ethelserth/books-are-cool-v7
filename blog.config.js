@@ -1,8 +1,8 @@
 const BLOG = {
   title: 'Books Are Cool',
-  author: 'Tsiokos Agathoklis',
+  author: '',
   email: 'write@booksarecool.gr',
-  link: 'http://booksarecool.gr/',
+  link: 'http://booksarecool.gr',
   description: 'Μικρές κριτικές για μεγάλα βιβλία',
   lang: 'el', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Europe/Athens', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
@@ -33,7 +33,7 @@ const BLOG = {
       domainId: '' // e.g '0e2257a8-54d4-4847-91a1-0311ea48cc7b'
     },
     gaConfig: {
-      measurementId: '' // e.g: G-XXXXXXXXXX
+      measurementId: 'G-8EGRDLSF2B' // e.g: G-XXXXXXXXXX
     }
   },
   comment: {
