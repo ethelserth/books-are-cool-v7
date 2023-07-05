@@ -25,7 +25,8 @@ export default function BlogPost ({ post, blockMap, emailHash }) {
       layout="blog"
       title={post.title}
       description={post.summary}
-      slug={post.slug}
+      slug={post.slug} 
+      cover={post?.page_cover}
       // date={new Date(post.publishedAt).toISOString()}
       type="article"
       fullWidth={fullWidth}
