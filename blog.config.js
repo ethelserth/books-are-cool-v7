@@ -2,7 +2,7 @@ const BLOG = {
   title: 'Books Are Cool',
   author: '',
   email: 'write@booksarecool.gr',
-  link: 'http://booksarecool.gr',
+  link: 'https://www.booksarecool.gr',
   description: 'Μικρές κριτικές για μεγάλα βιβλία',
   lang: 'el', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Europe/Athens', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
