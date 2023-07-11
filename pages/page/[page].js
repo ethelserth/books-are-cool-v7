@@ -15,7 +15,7 @@ const Page = ({ postsToShow, page, showNext }) => {
   )
 }
 
-export async function getServerSideProps (context) {
+export async function getStaticProps (context) {
   const { page } = context.params // Get Current Page No.
   const posts = await getAllPosts({ includePages: false })
   const postsToShow = posts.slice(
