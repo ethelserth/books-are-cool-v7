@@ -167,3 +167,15 @@ nav {
 .sm-cover {
   @apply bg-gradient-to-r from-gray-100 via-gray-100 group-hover:from-gray-200 group-hover:via-gray-200 dark:from-gray-700 dark:via-gray-700 dark:group-hover:from-gray-600 dark:group-hover:via-gray-600 to-transparent;
 }
+
+@media (max-width: 768px) {
+  .object-center{
+    -o-object-position: right;
+    object-position: right;
+  }
+
+  .object-cover {
+    -o-object-fit: scale-down;
+    object-fit: scale-down;
+  }
+}
