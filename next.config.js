@@ -2,6 +2,7 @@ module.exports = {
   images: {
     domains: ['gravatar.com']
   },
+  target: 'serverless',
   experimental: { nftTracing: true },
   eslint: {
     // dirs: ['components', 'layouts', 'lib', 'pages']
