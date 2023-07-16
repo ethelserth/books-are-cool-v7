@@ -10,6 +10,10 @@ import Container from '@/components/Container'
 import Post from '@/components/Post'
 import Comments from '@/components/Comments'
 
+import path from 'path'
+import fs from 'fs'
+
+
 export default function BlogPost ({ post, blockMap, emailHash }) {
   const router = useRouter()
   const BLOG = useConfig()
@@ -80,6 +84,9 @@ export async function getStaticPaths () {
 }
 
 export async function getStaticProps ({ params: { slug } }) {
+
+  const BGP = fs.readFileSync(path.join(process.cwd(), 'blog.config.js'), 'utf-8')
+
   const posts = await getAllPosts({ includePages: true })
   const post = posts.find(t => t.slug === slug)
 
