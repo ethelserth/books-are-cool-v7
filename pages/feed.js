@@ -6,7 +6,7 @@ import fs from 'fs'
 
 export async function getServerSideProps ({ res }) {
 
-  const BGP2 = fs.readFileSync(path.join(process.cwd(), 'blog.config.js'), 'utf-8')
+  const BGP3 = fs.readFileSync(path.join(process.cwd(), 'blog.config.js'), 'utf-8')
 
   res.setHeader('Content-Type', 'text/xml')
   const posts = await getAllPosts({ includePages: false })
