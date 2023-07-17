@@ -3,8 +3,15 @@ import cn from 'classnames'
 import { config } from '@/lib/server/config'
 import tailwind from '@/tailwind.config'
 import CJK from '@/lib/cjk'
+
+import path from 'path'
+import fs from 'fs'
+
 class MyDocument extends Document {
   static async getInitialProps (ctx) {
+
+    const BGP5 = fs.readFileSync(path.join(process.cwd(), 'blog.config.js'), 'utf-8')
+
     const initialProps = await Document.getInitialProps(ctx)
     return { ...initialProps }
   }
