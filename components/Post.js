@@ -6,6 +6,7 @@ import FormattedDate from '@/components/FormattedDate'
 import TagItem from '@/components/TagItem'
 import NotionRenderer from '@/components/NotionRenderer'
 import TableOfContents from '@/components/TableOfContents'
+import Image from 'next/image'
 
 /**
  * A post renderer
@@ -25,6 +26,7 @@ export default function Post (props) {
 
   return (
     <article className={cn('flex flex-col', fullWidth ? 'md:px-24' : 'items-center')}>
+      {/* <div style={{backgroundImage:"url(" + post?.page_cover + ")"}} className="absolute top-[-25%] w-full flex items-center justify-center h-[100vh] mb-12 bg-fixed bg-center bg-cover "></div> */}
       <h1 className={cn(
         'w-full font-bold text-3xl text-black dark:text-white',
         { 'max-w-4xl px-4': !fullWidth }
