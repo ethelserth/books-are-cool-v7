@@ -21,7 +21,7 @@ const Page = ({ postsToShow, page, showNext }) => {
 export async function getStaticProps (context) {
   const BGP4 = fs.readFileSync(path.join(process.cwd(), 'blog.config.js'), 'utf-8')
 
-  const { page } = context.params // Get Current Page No.
+  const { page } = context.params // Get Current Page No. s
   const posts = await getAllPosts({ includePages: false })
   const postsToShow = posts.slice(
     config.postsPerPage * (page - 1),
