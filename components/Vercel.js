@@ -11,7 +11,7 @@ const Vercel = () => {
         height="28"
         viewBox="0 0 135 28"
         fill="none"
-        xmlns="http://www.w3.org/2000/svg"
+        xmlns="http://www.w3.org/2000/svg" //test
         className="inline-block"
       >
         <g clipPath="url(#clip0)">
